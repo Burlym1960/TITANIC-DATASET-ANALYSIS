@@ -1,0 +1,28 @@
+Model: LogisticRegression
+Accuracy: 0.4413
+ROC-AUC: 0.4665
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.46      0.55      0.50        91
+           1       0.41      0.33      0.37        88
+
+    accuracy                           0.44       179
+   macro avg       0.44      0.44      0.43       179
+weighted avg       0.44      0.44      0.43       179
+
+------------------------------------------------------------
+Model: RandomForestClassifier
+Accuracy: 0.4637
+ROC-AUC: 0.4768
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.48      0.59      0.53        91
+           1       0.44      0.33      0.38        88
+
+    accuracy                           0.46       179
+   macro avg       0.46      0.46      0.45       179
+weighted avg       0.46      0.46      0.45       179
+
+------------------------------------------------------------

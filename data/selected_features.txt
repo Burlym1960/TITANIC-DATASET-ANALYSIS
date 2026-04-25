@@ -1,0 +1,11 @@
+Dropped due to high correlation (>0.9):
+None
+
+Top 15 by RandomForest importance:
+PassengerId, FarePerPerson, Pclass_Fare, LogFare, Fare, FamilySize, SibSp, Parch, Pclass, Age_was_missing, IsAlone, Age_Title, Age, LogAge
+
+RFE-selected features:
+PassengerId, Pclass, SibSp, Parch, Fare, Age_was_missing, FamilySize, IsAlone, FarePerPerson, Pclass_Fare, Age_Title, LogFare
+
+Final selected features:
+Age, Age_Title, Age_was_missing, FamilySize, Fare, FarePerPerson, IsAlone, LogAge, LogFare, Parch, PassengerId, Pclass, Pclass_Fare, SibSp
