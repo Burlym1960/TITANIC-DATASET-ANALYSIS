@@ -87,7 +87,7 @@ Use `notebooks/Titanic_Feature_Engineering.ipynb` for exploration and visual exp
 - transformation justifications
 - feature selection insights
 
-## Key Findings (to fill after running)
+Key Findings
 
 - Add your top features from `data/feature_importance.csv`
 - Note which features were dropped and why
